@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+header, footer{
+    border: .2em solid black;
+    background-color: #1c4587;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+footer{
+    height: 10vh;
+}
+
+main{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    font-size: 1.5em;
+}
+
+.margin-top{
+    margin-top: .3em;
+}
+
+.title{
+    text-align: center;
+    margin: 1em;
+}
+
+.nav-header{
+    height: 10vh;
+    font-size: 3em;
+}
+
+.main-text{
+    width: 40vw;
+    margin-left: 25vw;
+    border-top: 1em solid #cee1f7;
+}
+
+.side-text{
+    margin-top: 2em;
+    width: 15vw;
+    margin-right: 4em;
+}
+
+img{
+    width: 100%;
+}
+
+@media screen and (max-width: ) {
+    
+}
