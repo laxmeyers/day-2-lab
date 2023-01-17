@@ -54,3 +54,39 @@ body{
 img{
     width: 100%;
 }
+
+@media screen and (max-width: 48em){
+    .side-text{
+        margin-right: 1em;
+    }
+
+    .nav-header{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 41em) {
+    
+    main{
+        display: block;
+    }
+    
+    .nav-header{
+        font-size: 1.5em;
+    }
+
+    .main-text{
+        margin: auto;
+        width: 80%;
+    }
+
+    .title{
+        margin-left: -0.8em;
+    }
+
+    .side-text{
+        width: 80%;
+        margin: 1em auto;
+    }
+
+}
